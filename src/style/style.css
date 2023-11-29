@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+p {
+    font-size: .9em;
+
+}
+
+:root {
+    /* font-size: 18px; */
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    padding: 0px 20px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Section header-input Start */
+.header-input {
+    background-color: #f3f3f3;
+    padding: 1.8em 0 6em;
+}
+
+/* Section header-input End */
+
+/* Header Start */
+header {
+    text-align: center;
+    /* padding: 1.8em 0; */
+}
+
+.title {
+    font-size: 2.4em;
+}
+
+.title-app {
+    color: #ffc400;
+}
+
+.date {
+    color: #565656;
+}
+
+/* Header End */
+
+/* CreateNote Start */
+.create-note {
+    max-width: 80%;
+    margin: 26px auto 0;
+}
+
+.create-note-title {
+    margin-bottom: .3em;
+}
+
+.form-note {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-note .title-label {
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+}
+
+.form-note .title,
+.form-note .note,
+.form-note .btn-submit {
+    background-color: #f7f7f7;
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: all 0.05s;
+}
+
+.form-note textarea {
+    resize: none;
+}
+
+.form-note .btn-submit {
+    background-color: #ffc400;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 12px;
+    color: white;
+}
+
+.form-note .title:focus,
+.form-note .note:focus {
+    outline: 2px solid #afafaf;
+}
+
+.form-note .btn-submit:hover {
+    outline: 2px solid #876803;
+}
+
+.form-note .btn-submit:focus {
+    background-color: #d2a103;
+    outline: none;
+    /* color: white; */
+}
+
+/* CreateNote End */
+
+/* Section notes Start */
+.notes {
+    background-color: #fff;
+    padding: 1.8em 0 6em;
+}
+
+.notes-list {
+    margin-top: 1.4em;
+}
+
+.notes-list.archive {
+    margin-top: 5em;
+}
+
+.notes-list-title {
+    text-align: center;
+    margin-bottom: .8em;
+}
+
+/* Section notes End */
+
+/* Notes Item Start */
+.notes-item-container {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notes-item {
+    max-width: 22%;
+    height: max-content;
+    text-align: justify;
+    background-color: #E4E7F5;
+    padding: 1em 1.2em;
+    border-radius: 8px;
+}
+
+.notes-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notes-date {
+    color: rgba(74, 74, 74, 0.8);
+    margin-bottom: 10px;
+}
+
+.notes-content {
+    color: rgba(74, 74, 74, 0.8);
+}
+
+.notes-btn {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes-btn-delete,
+.notes-btn-archive {
+    width: 45%;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 0;
+    font-weight: 700;
+    transition: all .15s;
+}
+
+.notes-btn-delete {
+    color: white;
+    background-color: red;
+}
+
+.notes-btn-delete:hover {
+    background-color: rgb(210, 0, 0);
+}
+
+.notes-btn-archive {
+    background-color: #0779E4;
+    color: white;
+}
+
+.notes-btn-archive:hover {
+    background-color: #0061bb;
+}
+
+/* Notes Item End */
+
+
+
+
+.find-note {
+    width: 50%;
+    margin: 4em auto -4em;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    padding: 8px 16px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: all 0.05s;
+}
+
+.find-note:focus {
+    outline: 2px solid #afafaf;
+}
